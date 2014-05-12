@@ -1,0 +1,29 @@
+{
+  "name": "dive",
+  "version": "0.1.0",
+  "description": "Functional programming ispired by Clojure",
+  "main": "index.js",
+  "keywords": ["functional", "dom", "react", "templating", "reactive"],
+  "repository" : {
+    "type": "git",
+     "url": "https://github.com/intelie/dive.git"
+   },
+  "engines": { "node": "*" }
+  "dependencies": {
+    "react": "0.10.x",
+    "react-async": "~0.9.1"
+  },
+  "devDependencies": {
+    "glob": "~3.2.9",
+    "assert": "~1.1.1",
+    "gulp": "3.6.x",
+    "gulp-util": "2.2.x",
+    "gulp-shell": "0.2.x",
+    "gulp-concat": "2.2.x",
+    "gulp-uglify": "0.2.x",
+    "gulp-plumber": "0.6.x",
+    "gulp-watchify": "0.2.x",
+    "gaze": "~0.6.4",
+    "vinyl-source-stream": "0.1.x"
+  }
+}

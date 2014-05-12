@@ -40,7 +40,7 @@ window.Dive = function() {
   else throw selector_syntax_error;
 };
 
-Dive.into(Dive, extensions);
+extensions.into(Dive, extensions);
 
 var appendContent = function(parent, content) {
   if (content == undefined || content == null || typeof content === "boolean")

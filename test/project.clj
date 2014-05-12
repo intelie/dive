@@ -21,4 +21,4 @@
                                    :pretty-print true}}]
               :test-commands {"unit-tests" ["phantomjs" :runner
                                             "target/cljs/dive_test.js"
-                                            #_"js/dive.js"]}})
+                                            "js/dive.js"]}})
